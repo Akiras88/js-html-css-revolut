@@ -62,10 +62,15 @@ body {
     position: relative;
 }
 .dropdown-menu {
-    display: none;
+    display: none; /* jQuery */
     position: absolute;
     top: 100%;
     left: -31px;
     text-align: center;
     width: 100px
+}
+
+.hide { /* jQuery */
+    opacity: 0;
+    position: absolute;
 }
