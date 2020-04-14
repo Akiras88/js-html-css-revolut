@@ -1,0 +1,71 @@
+/* FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER STYLE */
+.Header {
+    display: flex;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.header-sx .list-sx,
+.header-dx .list-dx {
+    display: flex;
+    align-items: center;
+}
+.list-sx li,
+.list-dx li {
+    list-style: none;
+    margin: 30px 20px;
+} 
+.list-sx li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8b959e;
+}
+.list-sx img {
+    width: 100px;
+    height: auto;
+}
+.list-dx li a {
+    text-decoration: none;
+    color: #8b959e;
+    font-weight: 500;
+}
+.list-sx li a:hover,
+.list-dx li a:hover {
+    color: #000;
+}
+.btn {
+    background: #D2007E;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2rem;
+    cursor: pointer;
+    border-style: none;
+    letter-spacing: .5px;
+    outline: none;
+}
+
+/* dropdown menu style*/
+.with-dropdown {
+    position: relative;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -31px;
+    text-align: center;
+    width: 100px
+}
